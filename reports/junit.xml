@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 0.0.0 (Windows 10 0.0.0)" package="" timestamp="2019-11-04T16:37:24" id="0" hostname="P82940W" tests="6" errors="0" failures="0" time="0.996">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/77.0.3865.120 Safari/537.36"/>
+  </properties>
+  <testcase name="AppComponent should create the app" time="0.397" classname="AppComponent"/>
+  <testcase name="AppComponent should have as title 'Angular &amp; NgRx'" time="0.117" classname="AppComponent"/>
+  <testcase name="AppComponent should render title in a h1 tag" time="0.147" classname="AppComponent"/>
+  <testcase name="AppComponent should dispatch an action to load data when created" time="0.149" classname="AppComponent"/>
+  <testcase name="AppComponent should display counter value" time="0.139" classname="AppComponent"/>
+  <testcase name="CounterEffects should be created" time="0.047" classname="CounterEffects"/>
+  <system-out>
+    <![CDATA[HeadlessChrome 0.0.0 (Windows 10 0.0.0) WARN: '@ngrx/store: runtime checks are currently opt-in but will be the default in the next major version with the possibility to opt-out, see https://ngrx.io/guide/migration/v8 for more information.'
+,HeadlessChrome 0.0.0 (Windows 10 0.0.0) WARN: '@ngrx/store: runtime checks are currently opt-in but will be the default in the next major version with the possibility to opt-out, see https://ngrx.io/guide/migration/v8 for more information.'
+,HeadlessChrome 0.0.0 (Windows 10 0.0.0) WARN: '@ngrx/store: runtime checks are currently opt-in but will be the default in the next major version with the possibility to opt-out, see https://ngrx.io/guide/migration/v8 for more information.'
+,HeadlessChrome 0.0.0 (Windows 10 0.0.0) WARN: '@ngrx/store: runtime checks are currently opt-in but will be the default in the next major version with the possibility to opt-out, see https://ngrx.io/guide/migration/v8 for more information.'
+,HeadlessChrome 0.0.0 (Windows 10 0.0.0) WARN: '@ngrx/store: runtime checks are currently opt-in but will be the default in the next major version with the possibility to opt-out, see https://ngrx.io/guide/migration/v8 for more information.'
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

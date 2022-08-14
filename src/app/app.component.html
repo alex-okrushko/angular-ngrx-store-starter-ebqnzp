@@ -1,0 +1,36 @@
+<div class="container my-2">
+  <app-hello name="{{ name }}"></app-hello>
+  <p>
+    Very simple NgRx starter app. Used in this medium article :
+    <a
+      href="https://medium.com/@coco.boudard/starting-with-angular-and-ngrx-store-75e92c90d346"
+      >Starting with Angular and NgRx Store</a
+    >
+  </p>
+
+  <ng-container *ngIf="count$ | async as num">
+    <div class="mb-2">
+      <button class="btn btn-success btn-sm mr-2" (click)="decrement()">
+        decrement
+      </button>
+      <button class="btn btn-success btn-sm mr-2" (click)="increment()">
+        increment
+      </button>
+      <button class="btn btn-primary btn-sm mr-2" (click)="storeVal(num)">
+        store
+      </button>
+    </div>
+    <div>
+      counter:
+      <span class="badge badge-primary" id="num" [innerText]="num"></span>
+    </div>
+    <div>
+      storage:
+      <span
+        class="badge badge-primary"
+        id="storage"
+        [innerText]="storage$ | async"
+      ></span>
+    </div>
+  </ng-container>
+</div>
